@@ -1,0 +1,14 @@
+Rinkeby
+контракт Краудсейл:
+https://rinkeby.etherscan.io/address/0xf023423374415ba7f53b9be804da2e7b34b9008e
+
+контракт токена:
+https://rinkeby.etherscan.io/token/0xaaefcefe6ec9bf960801a519d5b7936fb7c50daf
+ABI
+000000000000000000000000f023423374415ba7f53b9be804da2e7b34b9008e
+
+контракт дивидендов:
+https://rinkeby.etherscan.io/address/0x4a161a88765c90754a147bb889080de286a16c47
+
+ABI
+000000000000000000000000f023423374415ba7f53b9be804da2e7b34b9008e000000000000000000000000aaefcefe6ec9bf960801a519d5b7936fb7c50daf

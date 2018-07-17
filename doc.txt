@@ -1,0 +1,5 @@
+Техническое задание на контракт
+https://docs.google.com/document/d/1kORRbsdLQ8objYOt-1DB1GnD1EbwLAD3MmeG3fGvs3E/edit#
+
+Контракт краудсейла, написанный кем-то:
+https://etherscan.io/address/0x8d8ebbccb9dd1cedc9ad7ac316d590a58921f24b#code
