@@ -6,7 +6,7 @@ const buildPath = path.resolve(__dirname, 'build');
 fs.removeSync(buildPath);
 // removeSync - одна из улучшенных ф-ий пакета fs-extra. Удаляет папку вместе со всем содержимым
 
-const contractPath = path.resolve(__dirname, 'contracts', 'dima-v3.sol');
+const contractPath = path.resolve(__dirname, 'contracts', 'Gradus-v3.sol');
 const source = fs.readFileSync(contractPath, 'utf8');
 
 const output = solc.compile(source, 1).contracts;

@@ -1,4 +1,7 @@
-//здесь может быть любой текст для пользователей (на английском, желательно)
+/**
+ * @title GradusInvestmentPlatform
+*/
+
 
 pragma solidity ^0.4.24;
 
@@ -6,11 +9,11 @@ pragma solidity ^0.4.24;
 /**
  * @title SafeMath
  * @dev Math operations with safety checks that throw on error
- */
+*/
 library SafeMath {
 
     /**
-    * @dev Multiplies two numbers, throws on overflow.
+     * @dev Multiplies two numbers, throws on overflow.
     */
     function mul(uint256 a, uint256 b) internal pure returns (uint256 c) {
         // Gas optimization: this is cheaper than asserting 'a' not being zero, but the
@@ -25,9 +28,9 @@ library SafeMath {
         return c;
     }
 
-  /**
-  * @dev Integer division of two numbers, truncating the quotient.
-  */
+    /**
+     * @dev Integer division of two numbers, truncating the quotient.
+    */
     function div(uint256 a, uint256 b) internal pure returns (uint256) {
         // assert(b > 0); // Solidity automatically throws when dividing by 0
         // uint256 c = a / b;
@@ -332,9 +335,9 @@ contract GRADtoken is StandardToken {
         // The token contract can receive ether for buy-back tokens
     }  
 
-    // !!!     убрать нижние функции перед развертыванием   !!!
+    // !!!     ������ ������ ������� ����� ��������������   !!!
     function AddBalanceContract () public payable {
-        // для пополнения баланса при тестировании
+        // ��� ���������� ������� ��� ������������
     }
 }
 
@@ -420,6 +423,7 @@ contract Dividend {
         }
     }
 
+//!!! Удалить перед развертыванием!!!
     /**
      * function show dividends 
      */
@@ -451,10 +455,10 @@ contract Dividend {
         _CalcDiv();
     }  
 
-      // !!!     убрать нижние функции перед развертыванием   !!!
+      // !!!     ������ ������ ������� ����� ��������������   !!!
 
     function AddBalanceContract () public payable {
-        // для пополнения баланса при тестировании
+        // ��� ���������� ������� ��� ������������
         _CalcDiv();
     }  
 }
@@ -469,8 +473,15 @@ contract CrowdSale is Ownable{
 
     // The token being sold
     address myAddress = this;
-    GRADtoken public token = new GRADtoken(myAddress);
-    Dividend public dividendContract = new Dividend(myAddress, address(token));
+    
+    //!!! �������� ����� �������������� � �������� ����!!!
+    //GRADtoken public token = new GRADtoken(myAddress);
+    //Dividend public dividendContract = new Dividend(myAddress, address(token));
+    
+    //!!! ������ ����� �������������� � �������� ����!!!
+    GRADtoken public token;
+    Dividend public dividendContract;
+    
     // address where funds are collected
     address public wallet = 0x0;
 

@@ -1,4 +1,4 @@
-Rinkeby
+Rinkeby версия 3
 контракт Краудсейл:
 https://rinkeby.etherscan.io/address/0xf023423374415ba7f53b9be804da2e7b34b9008e
 
@@ -12,3 +12,32 @@ https://rinkeby.etherscan.io/address/0x4a161a88765c90754a147bb889080de286a16c47
 
 ABI
 000000000000000000000000f023423374415ba7f53b9be804da2e7b34b9008e000000000000000000000000aaefcefe6ec9bf960801a519d5b7936fb7c50daf
+
+
+Rinkeby версия 4
+контракт Краудсейл:
+https://rinkeby.etherscan.io/address/0x6ad60962e838fe09107a2aa427cd406dc7346a85
+
+контракт токена:
+https://rinkeby.etherscan.io/token/0x09d608084f5ddba407f3bd6d112ab37296f8effd
+
+
+контракт дивидендов:
+https://rinkeby.etherscan.io/address/0x795234c864ea24e9d8c08c7e9e463cdb36291a3f
+
+контракт дивидендов-2:
+https://rinkeby.etherscan.io/address/0x62a84d1af52a11a5c812b87fb80f341a6934e4a6
+
+MainNet
+контракт Краудсейл:
+https://etherscan.io/address/0x7ed7fe41f0e82f1bc95fd59b7cc1482f6ec3f4f2
+
+контракт токена:
+https://etherscan.io/token/0x70ab45b8dced0c57e5bf1b0cac9cebc7301e35a0
+ABI
+0000000000000000000000007ed7fe41f0e82f1bc95fd59b7cc1482f6ec3f4f2
+
+контракт дивидендов:
+https://etherscan.io/address/0x85e330f4d168003a0a65ffc3a96ecbb9634415ed
+ABI
+0000000000000000000000007ed7fe41f0e82f1bc95fd59b7cc1482f6ec3f4f200000000000000000000000070ab45b8dced0c57e5bf1b0cac9cebc7301e35a0
